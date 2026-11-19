@@ -1,0 +1,22 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Keep raw or restricted research data out of version control
+*.dta
+*.sav
+*.por
+*.xlsx
+*.xls
+*.zip
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.rds
+*.rdata
+*.RData
+/data/
+/private/
