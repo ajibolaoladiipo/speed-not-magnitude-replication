@@ -1,0 +1,68 @@
+[
+  {
+    "T": 120,
+    "dgp": "null_symmetric",
+    "replications": 1000,
+    "speed_symmetry_rejections": 97,
+    "rejection_rate": 0.097,
+    "mean_single_vector_beta": 0.95472923803423,
+    "seed": 20261119,
+    "test": "two-sided Newey-West HAC Wald, lag 4, normal reference, alpha_plus=alpha_minus",
+    "dgp_note": "Common beta=0.956 and alpha_plus=alpha_minus=-0.29."
+  },
+  {
+    "T": 120,
+    "dgp": "speed_only",
+    "replications": 1000,
+    "speed_symmetry_rejections": 257,
+    "rejection_rate": 0.257,
+    "mean_single_vector_beta": 0.9535236809982278,
+    "seed": 20261119,
+    "test": "two-sided Newey-West HAC Wald, lag 4, normal reference, alpha_plus=alpha_minus",
+    "dgp_note": "Common beta=0.956; true alpha_plus=-0.13, alpha_minus=-0.40."
+  },
+  {
+    "T": 120,
+    "dgp": "magnitude_only",
+    "replications": 1000,
+    "speed_symmetry_rejections": 100,
+    "rejection_rate": 0.1,
+    "mean_single_vector_beta": 0.9469242852020812,
+    "seed": 20261119,
+    "test": "two-sided Newey-West HAC Wald, lag 4, normal reference, alpha_plus=alpha_minus",
+    "dgp_note": "True regime-specific long-run slopes 1.05/0.85; common alpha=-0.29. Single-vector null is misspecified; rejection rate is not a valid test of slope asymmetry."
+  },
+  {
+    "T": 240,
+    "dgp": "null_symmetric",
+    "replications": 1000,
+    "speed_symmetry_rejections": 65,
+    "rejection_rate": 0.065,
+    "mean_single_vector_beta": 0.9558225106678575,
+    "seed": 20261119,
+    "test": "two-sided Newey-West HAC Wald, lag 4, normal reference, alpha_plus=alpha_minus",
+    "dgp_note": "Common beta=0.956 and alpha_plus=alpha_minus=-0.29."
+  },
+  {
+    "T": 240,
+    "dgp": "speed_only",
+    "replications": 1000,
+    "speed_symmetry_rejections": 373,
+    "rejection_rate": 0.373,
+    "mean_single_vector_beta": 0.9563050471083195,
+    "seed": 20261119,
+    "test": "two-sided Newey-West HAC Wald, lag 4, normal reference, alpha_plus=alpha_minus",
+    "dgp_note": "Common beta=0.956; true alpha_plus=-0.13, alpha_minus=-0.40."
+  },
+  {
+    "T": 240,
+    "dgp": "magnitude_only",
+    "replications": 1000,
+    "speed_symmetry_rejections": 72,
+    "rejection_rate": 0.072,
+    "mean_single_vector_beta": 0.9494425709834456,
+    "seed": 20261119,
+    "test": "two-sided Newey-West HAC Wald, lag 4, normal reference, alpha_plus=alpha_minus",
+    "dgp_note": "True regime-specific long-run slopes 1.05/0.85; common alpha=-0.29. Single-vector null is misspecified; rejection rate is not a valid test of slope asymmetry."
+  }
+]

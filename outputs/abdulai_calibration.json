@@ -1,0 +1,23 @@
+{
+  "source": "Abdulai (2000), Accra maize; coefficients and horizons as reported",
+  "units": "volume-weighted log-wedge months; normalized by V*|Z0|",
+  "buyer_adverse_Z_positive": {
+    "alpha": -0.13,
+    "horizon_months": 30.0,
+    "residual_share": 0.02024191144580438,
+    "completion_percent": 97.97580885541957,
+    "finite_per_V_abs_Z0": 7.53660068118612,
+    "lifetime_per_V_abs_Z0": 7.692307692307692
+  },
+  "other_Z_negative": {
+    "alpha": -0.4,
+    "horizon_months": 10.0,
+    "residual_share": 0.01831563888873418,
+    "completion_percent": 98.16843611112658,
+    "finite_per_V_abs_Z0": 2.4542109027781644,
+    "lifetime_per_V_abs_Z0": 2.5
+  },
+  "gap_plus_minus": 5.082389778407956,
+  "realized_ratio": 3.07088550240515,
+  "limiting_speed_ratio": 3.076923076923077
+}
